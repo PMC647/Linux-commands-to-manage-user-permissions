@@ -3,7 +3,7 @@
 
 ## Project description
 
- I worked through linux using bash to manage user permissions using chmod commands and user permission arguments on project files and their access to certain directories. I then ensured all changes were made and correct by using the ls \-la command.
+ I worked through linux using bash to manage user permissions using chmod commands and user permission arguments on project files and the access to certain directories. I then ensured all changes were made and correct by using the ls -la command.
 
 ## Check file and directory details
 
