@@ -15,7 +15,7 @@ I began with navigating to the directory where user permissions needed to be alt
 
 <img width="155" height="25" alt="image" src="https://github.com/user-attachments/assets/7870bf74-56e8-4fc6-98f1-efeb30bc8214" />
 
-The permission string is a 10 character string. It is split into three sections of three characters. Character 2-4 are the user, character 5-7 are the group and 8-10 are other. Each section represents a User, group or other. The first section of the string begins with the letter d, this is for directory. The letters that follow, rwx are their permissions for the files and directories. R is for read, w is for write and x is for execute. After drwx there is an r.  r-x means the group has read and execute permissions but no write permissions. The final three characters r-x are the same permissions as the group. However this section of the string has other permissions. 
+The permission string is a 10 character string. It is split into three sections of three characters. Character 2-4 are the user, character 5-7 are the group and 8-10 are other. Each section represents a User, group or other. The first section of the string begins with the letter d, this is for directory. The letters that follow, rwx are their permissions for the files and directories. R is for read, w is for write and x is for execute. After drwx there is an r.  r-x means the group has read and execute permissions but no write permissions. The final three characters r-x are the same permissions as the group. However this section of the string is the other permissions. 
 
 ## Change file permissions
 
